@@ -90,7 +90,7 @@
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 52px; }
 .section-heading p { margin: 0 0 8px; color: var(--muted); font-size: 15px; line-height: 1.8; }
 .project-grid { display: grid; grid-template-columns: 1fr; gap: 22px;}
-.project-card {  border-radius: 20px;height: 385px; position: relative; overflow: hidden; padding: 14px; background: var(--panel); cursor: pointer; perspective: 1200px; }
+.project-card {  border-radius: 20px;height: 385px; position: relative; padding: 14px; background: var(--panel); cursor: pointer; perspective: 1200px; }
 .project-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
 .project-card-content { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform .55s ease; }
 .project-card-content.is-flipped { transform: rotateY(180deg); }.project-card-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
